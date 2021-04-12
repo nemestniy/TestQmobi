@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd402b88fd88c84a8649a8fc41f96fa, type: 3}
+  m_Name: BigAsteroidConfig
+  m_EditorClassIdentifier: 
+  Reward: 150
+  CrushingAsteroids:
+  - {fileID: 7293508991846723376, guid: 1d69a056c9309d64882edc3163473e4d, type: 3}
+  - {fileID: 1697849712682882109, guid: 2263c149371d6cb479e5b6e97b906515, type: 3}
+  - {fileID: 805938656356772309, guid: 02a2505520d309d48bbd80b37ea8cb25, type: 3}
+  - {fileID: 8197086040077728548, guid: 30d8f63c15843594e8a195370bfc8204, type: 3}
+  - {fileID: 8824067903868153659, guid: 61d0bb1e0d2c5c546a7a180a0024cadc, type: 3}
+  - {fileID: 5510249774697209272, guid: 6e1508a73f173a448874245b953ce28d, type: 3}
+  BiasDirection: 3
+  Power: 3000
+  DyingZone: 10
+  CrushingWeight: 5
