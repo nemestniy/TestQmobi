@@ -48,8 +48,11 @@ public class UIManager : MonoBehaviour
 
     public void RemoveLivesItems()
     {
-        Destroy(livesItems[livesItems.Count - 1].gameObject);
-        livesItems.Remove(livesItems[livesItems.Count - 1]);
+        if (livesItems.Count >= 1)
+        {
+            Destroy(livesItems[livesItems.Count - 1].gameObject);
+            livesItems.Remove(livesItems[livesItems.Count - 1]);
+        }
     }
 
     public void ShowLoseScreen()

@@ -28,13 +28,13 @@ public class DefaultBullet : BulletBase
             gunParent.OnHitting(asteroid.config.Reward);
         }
 
-        if(collision.transform.TryGetComponent<UFOController>(out var ufo) && gunParent.tag != collision.transform.tag)
+        if(collision.transform.TryGetComponent<UFOController>(out var ufo))
         {
             Destroy(ufo.gameObject);
             gunParent.OnHitting(ufo.config.Reward);
         }
 
-        if(collision.transform.TryGetComponent<Player>(out var player) && gunParent.tag != collision.transform.tag)
+        if(collision.transform.TryGetComponent<Player>(out var player))
         {
             GameManager.Instance.KillPlayer();
         }
